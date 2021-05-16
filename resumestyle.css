@@ -6,7 +6,7 @@
     
 }
 body{
-    background-image:url(k.jpg);
+    background-image:url(j.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ body{
     position: relative;
     background: #003147;
     padding: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 
 }
 .rightside{
@@ -118,7 +118,7 @@ body{
     color: #03a9f4;
     font-weight: 500;
 }
-.educationinfo h4::nth-child(2){
+.educationinfo h4: :nth-child(2){
     color: beige;
     font-weight: 500;
 }
@@ -278,14 +278,15 @@ p{
         grid-template-columns: repeat(2,1fr);
     }
 }
+
 .links{
     padding-top: 40px;
-    position: absolute;
-    display: flex;
+    position: relative;
     align-items: center;
     justify-items: center;
     letter-spacing: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    display: flex;
 }
 .links .fa{
     color: #03a9f4;
