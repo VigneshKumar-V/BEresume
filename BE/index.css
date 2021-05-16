@@ -118,7 +118,7 @@ body{
     color: #03a9f4;
     font-weight: 500;
 }
-.educationinfo h4: :nth-child(2){
+.educationinfo h4::nth-child(2){
     color: beige;
     font-weight: 500;
 }
